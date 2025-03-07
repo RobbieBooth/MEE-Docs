@@ -1,0 +1,8 @@
+{
+  "label": "Question Types",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "These are the question types available in the BasicQuestion module: multiple choice, fill in the blank, true or false, short text, long text and numerical."
+  }
+}

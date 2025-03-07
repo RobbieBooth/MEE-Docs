@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Creating a Module
 
-When it comes to creating a module for the system, there can be many different approaches, however for the sake of simplicity we will describe how to create a module based on the implementation of the [Basic Question Module](/docs/category/basicquestionmodule). Since the [Basic Question Module](/docs/category/basicquestionmodule) is made up of all the basic types of questions that would traditionally be used in a quiz, it is a good starting point to fork off of this module and modify it how you wish. Although if you wish to create your own one from scratch it is also easy and will be described exactly how to do it in these docs.
+When it comes to creating a module for the system, there can be many different approaches, however for the sake of simplicity we will describe how to create a module based on the implementation of the [Basic Question Module](/docs/category/basicquestion). Since the [Basic Question Module](/docs/category/basicquestion) is made up of all the basic types of questions that would traditionally be used in a quiz, it is a good starting point to fork off of this module and modify it how you wish. Although if you wish to create your own one from scratch it is also easy and will be described exactly how to do it in these docs.
 
 ## Java Project Structure
 
@@ -160,7 +160,7 @@ For a module, the implementation could look like this, where there is a file ins
 ```
 
 ##### createQuestionSettings
-The Question settings are typically used by your webapp front-end page to generate the questions. For example,  [Basic Question Module](/docs/category/basicquestionmodule) uses settings to create the questions and [additionalData](getting-started#createadditionaldata) to store the users answers.
+The Question settings are typically used by your webapp front-end page to generate the questions. For example,  [Basic Question Module](/docs/category/basicquestion) uses settings to create the questions and [additionalData](getting-started#createadditionaldata) to store the users answers.
 
 ```java
     /**
@@ -171,7 +171,7 @@ The Question settings are typically used by your webapp front-end page to genera
 ```
 
 ##### createAdditionalData
-This is the starter additional data when a quiz is started. It is strongly recommended to **have at least `isSubmitted` in the additional data** as the quiz front end uses it to determine whether to enable the submit and save button. For example, [Basic Question Module](/docs/category/basicquestionmodule) uses `isSubmitted` to determine if the quiz question has been submitted and to display answers.
+This is the starter additional data when a quiz is started. It is strongly recommended to **have at least `isSubmitted` in the additional data** as the quiz front end uses it to determine whether to enable the submit and save button. For example, [Basic Question Module](/docs/category/basicquestion) uses `isSubmitted` to determine if the quiz question has been submitted and to display answers.
 
 ```java
     /**
