@@ -201,7 +201,7 @@ This is the starter additional data when a quiz is started. It is strongly recom
 
 For setting up the modules UI in the java project. You will want to place the modules UI inside a folder with its exact name. **This must be the same name as the module holding the java code and the same name we are going to add into `modules.yaml`.** If it is not the same name an error will occur.
 
-So inside that folder you will place any static assets that you need for your module. This could be `index.html` which you use through your [createPage](getting-started#createPage). You could also hold your default question settings here by having a file called `defaultQuestionSettings.json` and using it inside [getDefaultQuestionSettings](getting-started.md#getdefaultquestionsettings).
+So inside that folder you will place any static assets that you need for your module. This could be `index.html` which you use through your [createPage](getting-started.md#createpage). You could also hold your default question settings here by having a file called `defaultQuestionSettings.json` and using it inside [getDefaultQuestionSettings](getting-started.md#getdefaultquestionsettings).
 
 Any static assets **must** be placed inside the `resources/static` folder since Spring Boot will not see any static assets placed inside the java code folder.
 
