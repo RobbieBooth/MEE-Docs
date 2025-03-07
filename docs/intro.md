@@ -80,4 +80,4 @@ npm run dev
 All of this should have the application running on your localhost with the Spring Boot running on a different port than the Remix server. By going to the Remix servers port it recommends you should now see the application.
 
 ### Other Information
-You should not be required to edit the main front end server as this has been designed to allow for the communication. However, if you feel you have to there is no one stopping you. The only thing that you should be editing if you are making a module is your own webpage for the module question and the module which will be in Spring Boot.
+You should not be required to edit the main front end server as this has been designed to allow for the communication. However, if you feel you have to, there is no one stopping you. The only thing that you should be editing if you are making a module is your own webpage for the module question and the module which will be in Spring Boot.

@@ -11,7 +11,7 @@ The `condition` is the [select setting](select-setting.md). When one of the `ava
 The `group` is a map of `availableValues` to its associated `BaseSetting` and since all the settings described here inherit `BaseSetting` any can be used.
 
 
-This example is a small snapshot of how the [Basic Question Module](/docs/example-modules/basic-question-module) does its selection. The full settings for [Basic Question Module](/docs/example-modules/basic-question-module) has all of the options, this example here is to show how it would work with just `Short Answer` and `Long Answer`.
+This example is a small snapshot of how the [Basic Question Module](/docs/category/basicquestionmodule) does its selection. The full settings for [Basic Question Module](/docs/category/basicquestionmodule) has all of the options, this example here is to show how it would work with just `Short Answer` and `Long Answer`.
 ```json
 {
   "type": "ConditionalSelect",
