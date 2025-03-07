@@ -25,6 +25,6 @@ This is a setting which is an input box.
 
 ## Visual Look
 ### Single Line
----image here
+![Framework Diagram](./img/single-line-input.png)
 ### Multiple Line
----image here
+![Framework Diagram](./img/multi-line-input.png)

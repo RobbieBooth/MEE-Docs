@@ -24,7 +24,7 @@ This is a setting for selecting either a single value or the option of a multipl
 ```
 
 ## Visual Look
-### Checkbox
----image here
-### Switch
----image here
+### Single Select
+![Framework Diagram](./img/single-select.png)
+### Multiple Select
+TODO Image here

@@ -24,6 +24,6 @@ The `value` can be a `true` or `false`.
 
 ## Visual Look
 ### Checkbox
----image here
+![Framework Diagram](./img/checkbox-toggle.png)
 ### Switch
----image here
+![Framework Diagram](./img/switch-toggle.png)
