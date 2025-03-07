@@ -1,0 +1,8 @@
+{
+  "label": "Event System",
+  "position": 3,
+  "link": {
+    "type": "generated-index",
+    "description": "An overview of how the event system works."
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "label": "BasicQuestionModule",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "A module which impliments the basic types of questions which can make up a quiz. These are multiple choice, fill in the blank, true or false, short text, long text and numerical."
+  }
+}

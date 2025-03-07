@@ -1,0 +1,8 @@
+{
+  "label": "Example Modules",
+  "position": 5,
+  "link": {
+    "type": "generated-index",
+    "description": "Example modules made to confirm the modularity of the system. Some of these are good to learn and use to create your modules."
+  }
+}

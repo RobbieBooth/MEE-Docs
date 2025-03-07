@@ -1,0 +1,8 @@
+{
+  "label": "Module Settings",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "MEE allows for modules to define their own settings that lecturers can customise. These settings are defined by JSON."
+  }
+}
