@@ -1,0 +1,8 @@
+{
+  "label": "AIQuestion",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "A module which is a fork from BasicQuestion Module. This module generates question from code submitted earlier."
+  }
+}
