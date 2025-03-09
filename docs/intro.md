@@ -46,6 +46,11 @@ NODE_ENV= the type of stage, i.e: development
 MICROSOFT_CLIENT_ID= e.g: Microsoft client id
 MICROSOFT_CLIENT_SECRET= e.g: Microsoft client secret
 MICROSOFT_TENANT_ID= this is the organisations id - this makes sure that only members of the paricular organisation can login
+
+; If you are using form on main page then you may want to set these up
+VITE_CONSENT_FORM_URL= The url of the consent form
+VITE_PIS_FORM_URL= The url of the Participant Information Sheet
+VITE_DOCUMENTATION_URL= The url of the documentation of the system
 ```
 
 The backend .env should contain:
@@ -58,6 +63,7 @@ MONGO_PASSWORD= e.g the mongo db password: 123456
 MONGO_AUTH_DB= e.g: the auth type, admin maybe
 
 JWT_SECRET= This is used between the remix server and spring boot to verify each other. It must be the same in both the envs!
+SERVER_PORT= The port that the spring server should run on e.g: 8080
 ```
 
 ### Running the system
